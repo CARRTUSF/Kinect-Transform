@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C24308FC-109E-4573-9B19-25A95F766C2B}</ProjectGuid>
+    <RootNamespace>VisualBCIKin</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Code\OpenCV243\opencv\build\include;C:\Program Files (x86)\PCL 1.6.0\3rdParty\VTK\include\vtk-5.8;C:\Program Files (x86)\PCL 1.6.0\3rdParty\Qhull\include;C:\Program Files (x86)\PCL 1.6.0\3rdParty\FLANN\include;C:\Program Files (x86)\PCL 1.6.0\3rdParty\Eigen\include;C:\Program Files (x86)\PCL 1.6.0\3rdParty\Boost\include;C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6;C:\Program Files (x86)\OpenNI\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Code\OpenCV243\opencv\build\x86\vc10\lib;$(LibraryPath)</LibraryPath>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\PCL 1.6.0\3rdParty\VTK\include\vtk-5.8;C:\Program Files (x86)\PCL 1.6.0\3rdParty\Qhull\include;C:\Program Files (x86)\PCL 1.6.0\3rdParty\FLANN\include;C:\Program Files (x86)\PCL 1.6.0\3rdParty\Eigen\include;C:\Program Files (x86)\PCL 1.6.0\3rdParty\Boost\include;C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6;C:\Code\OpenCV243\opencv\build\include;C:\Program Files (x86)\OpenNI\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\PCL 1.6.0\3rdParty\VTK\lib\vtk-5.8;C:\Program Files (x86)\PCL 1.6.0\3rdParty\Qhull\lib;C:\Program Files (x86)\PCL 1.6.0\3rdParty\FLANN\lib;C:\Program Files (x86)\PCL 1.6.0\3rdParty\Boost\lib;C:\Program Files (x86)\PCL 1.6.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>pcl_common_debug.lib;pcl_apps_debug.lib;pcl_features_debug.lib;pcl_filters_debug.lib;pcl_io_debug.lib;pcl_io_ply_debug.lib;pcl_kdtree_debug.lib;pcl_keypoints_debug.lib;pcl_octree_debug.lib;pcl_registration_debug.lib;pcl_sample_consensus_debug.lib;pcl_search_debug.lib;pcl_segmentation_debug.lib;pcl_surface_debug.lib;pcl_tracking_debug.lib;pcl_visualization_debug.lib;vtkRendering-gd.lib;QVTK-gd.lib;vtkalglib-gd.lib;vtkCharts-gd.lib;vtkCommon-gd.lib;vtkDICOMParser-gd.lib;vtkexoIIc-gd.lib;vtkexpat-gd.lib;vtkFiltering-gd.lib;vtkfreetype-gd.lib;vtkftgl-gd.lib;vtkGenericFiltering-gd.lib;vtkGeovis-gd.lib;vtkGraphics-gd.lib;vtkhdf5-gd.lib;vtkHybrid-gd.lib;vtkImaging-gd.lib;vtkInfovis-gd.lib;vtkIO-gd.lib;vtkjpeg-gd.lib;vtklibxml2-gd.lib;vtkmetaio-gd.lib;vtkNetCDF_cxx-gd.lib;vtkNetCDF-gd.lib;vtkpng-gd.lib;vtkproj4-gd.lib;vtksqlite-gd.lib;vtksys-gd.lib;vtktiff-gd.lib;vtkverdict-gd.lib;vtkViews-gd.lib;vtkVolumeRendering-gd.lib;vtkWidgets-gd.lib;vtkzlib-gd.lib;OpenGL32.Lib;opencv_calib3d243d.lib;opencv_contrib243d.lib;opencv_core243d.lib;opencv_features2d243d.lib;opencv_flann243d.lib;opencv_gpu243d.lib;opencv_haartraining_engined.lib;opencv_highgui243d.lib;opencv_imgproc243d.lib;opencv_legacy243d.lib;opencv_ml243d.lib;opencv_nonfree243d.lib;opencv_objdetect243d.lib;opencv_photo243d.lib;opencv_stitching243d.lib;opencv_ts243d.lib;opencv_video243d.lib;opencv_videostab243d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\PCL 1.6.0\3rdParty\VTK\include\vtk-5.8;C:\Program Files (x86)\PCL 1.6.0\3rdParty\Qhull\include;C:\Program Files (x86)\PCL 1.6.0\3rdParty\FLANN\include;C:\Program Files (x86)\PCL 1.6.0\3rdParty\Eigen\include;C:\Program Files (x86)\PCL 1.6.0\3rdParty\Boost\include;C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6;C:\Program Files (x86)\OpenNI\Include;C:\Code\OpenCV245\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\PCL 1.6.0\3rdParty\VTK\lib\vtk-5.8;C:\Program Files (x86)\PCL 1.6.0\3rdParty\Qhull\lib;C:\Program Files (x86)\PCL 1.6.0\3rdParty\FLANN\lib;C:\Program Files (x86)\PCL 1.6.0\3rdParty\Boost\lib;C:\Program Files (x86)\PCL 1.6.0\lib;C:\Code\OpenCV245\opencv\build\x86\vc10\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ws2_32.lib;opengl32.lib;vtksys.lib;vtkjpeg.lib;vtkpng.lib;vtktiff.lib;vtkzlib.lib;vtkexpat.lib;vtkIO.lib;vtkCommon.lib;vtkFiltering.lib;vtkGraphics.lib;vtkImaging.lib;vtkHybrid.lib;vtkRendering.lib;pcl_common_release.lib;pcl_io_release.lib;pcl_visualization_release.lib;pcl_filters_release.lib;pcl_kdtree_release.lib;pcl_octree_release.lib;pcl_registration_release.lib;pcl_sample_consensus_release.lib;pcl_search_release.lib;pcl_segmentation_release.lib;pcl_features_release.lib;pcl_keypoints_release.lib;pcl_surface_release.lib;opencv_calib3d245.lib;opencv_contrib245.lib;opencv_core245.lib;opencv_features2d245.lib;opencv_flann245.lib;opencv_gpu245.lib;opencv_highgui245.lib;opencv_imgproc245.lib;opencv_legacy245.lib;opencv_ml245.lib;opencv_nonfree245.lib;opencv_objdetect245.lib;opencv_photo245.lib;opencv_stitching245.lib;opencv_superres245.lib;opencv_ts245.lib;opencv_video245.lib;opencv_videostab245.lib;opencv_haartraining_engine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BCIGUI\SockStream.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PointCloudCapture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BCIGUI\constants.h" />
+    <ClInclude Include="BCIGUI\SockStream.h" />
+    <ClInclude Include="BCITypes.h" />
+    <ClInclude Include="PointCloudCapture.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_calib3d245.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_calib3d245d.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_contrib245.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_contrib245d.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_core245.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_core245d.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_features2d245.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_features2d245d.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_ffmpeg245.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_flann245.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_flann245d.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_gpu245.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_gpu245d.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_highgui245.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_highgui245d.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_imgproc245.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_imgproc245d.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_legacy245.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_legacy245d.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_ml245.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_ml245d.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_nonfree245.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_nonfree245d.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_objdetect245.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_objdetect245d.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_photo245.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_photo245d.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_stitching245.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_stitching245d.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_superres245.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_superres245d.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_ts245.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_ts245d.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_video245.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_video245d.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_videostab245.dll" />
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_videostab245d.dll" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

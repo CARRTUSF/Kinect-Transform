@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PointCloudCapture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BCIGUI\SockStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PointCloudCapture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BCIGUI\constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BCIGUI\SockStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BCITypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_ml245.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_ml245d.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_nonfree245.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_nonfree245d.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_objdetect245.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_objdetect245d.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_photo245.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_photo245d.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_stitching245.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_stitching245d.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_superres245.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_superres245d.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_ts245.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_ts245d.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_video245.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_video245d.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_videostab245.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_videostab245d.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_calib3d245.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_calib3d245d.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_contrib245.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_contrib245d.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_core245.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_core245d.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_features2d245.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_features2d245d.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_ffmpeg245.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_flann245.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_flann245d.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_gpu245.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_gpu245d.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_highgui245.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_highgui245d.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_imgproc245.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_imgproc245d.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_legacy245.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Code\OpenCV245\opencv\build\x86\vc10\bin\opencv_legacy245d.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
